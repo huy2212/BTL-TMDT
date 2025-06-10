@@ -1,35 +1,101 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Maven
+Source code/target/
+Source code/HELP.md
+!Source code/.mvn/wrapper/maven-wrapper.jar
+!Source code/**/src/main/**/target/
+!Source code/**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs
+hs_err_pid*
+
+### Spring Tool Suite ###
+Source code/.apt_generated
+Source code/.classpath
+Source code/.factorypath
+Source code/.project
+Source code/.settings
+Source code/.springBeans
+Source code/.sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
+Source code/.idea/
+Source code/*.iws
+Source code/*.iml
+Source code/*.ipr
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+Source code/nbproject/private/
+Source code/nbbuild/
+Source code/dist/
+Source code/nbdist/
+Source code/.nb-gradle/
+Source code/build/
+!Source code/**/src/main/**/build/
+!Source code/**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+Source code/.vscode/
 
-/uploads/
+# Application specific
+Source code/uploads/
+uploads/
+
+# Environment variables
+.env
+Source code/.env
+
+# Application logs
+Source code/logs/
+logs/
+
+# Database files (if using H2 or similar)
+*.db
+Source code/*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Node modules (if any frontend tools are used)
+node_modules/
+Source code/node_modules/
+
+# Coverage reports
+coverage/
+Source code/coverage/
